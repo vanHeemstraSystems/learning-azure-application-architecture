@@ -10,5 +10,5 @@ Does sending component expect the communication to be processed in a specific wa
 
 |Action|Description|When to use|
 |--|--|--|
-|Event|- Light weight.<br/>- includes a publisher and a subscriber.|Used for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.|
+|Event|- Light weight.<br/>- Includes a publisher and a subscriber.|Used for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.|
 |Message|- Contains raw data, produced by one component, that will be consumed by another component.<br/>- Contains the data itself, not just a reference to that data.|Used where the distributed application requires a guarantee that the communication will be processed.|
