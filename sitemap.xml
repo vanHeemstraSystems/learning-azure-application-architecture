@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/about.html</loc>
-    <lastmod>2023-10-17T14:37:10.415Z</lastmod>
+    <lastmod>2023-10-17T14:38:47.049Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics.html</loc>
-    <lastmod>2023-10-17T14:37:09.875Z</lastmod>
+    <lastmod>2023-10-17T14:38:46.345Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/identity-protection.html</loc>
-    <lastmod>2023-10-17T14:37:09.327Z</lastmod>
+    <lastmod>2023-10-17T14:38:45.633Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/privileged-identity-management.html</loc>
-    <lastmod>2023-10-17T14:37:08.439Z</lastmod>
+    <lastmod>2023-10-17T14:38:44.441Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/hybrid-identity.html</loc>
-    <lastmod>2023-10-17T14:37:09.051Z</lastmod>
+    <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/determining-message-and-event-scenario.html</loc>
+    <lastmod>2023-10-17T14:38:45.281Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/SUMMARY.html</loc>
-    <lastmod>2023-10-17T14:37:09.607Z</lastmod>
+    <lastmod>2023-10-17T14:38:45.981Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/index.html</loc>
-    <lastmod>2023-10-17T14:37:10.151Z</lastmod>
+    <lastmod>2023-10-17T14:38:46.701Z</lastmod>
   </url>
 </urlset>
