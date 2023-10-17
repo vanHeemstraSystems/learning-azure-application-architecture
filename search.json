@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "topics/determine-message-and-event-scenario.html",
+    "href": "topics/determine-message-and-event-scenario.html",
+    "title": "Determine message and event scenarios",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDetermine message and event scenarios\nDoes sending component expect the communication to be processed in a specific way?\n\n\n\n\n\n\n\n\nAction\nDescription\nWhen to use\n\n\n\n\nEvent\n- Light weight.- includes a publisher and a subscriber.\nUsed for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.\n\n\nMessage\n- Contains raw data, produced by one component, that will be consumed by another component.- Contains the data itself, not just a reference to that data.\nUsed where the distributed application requires a guarantee that the communication will be processed."
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Table of contents",

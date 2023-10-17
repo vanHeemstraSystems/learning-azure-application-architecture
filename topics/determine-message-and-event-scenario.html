@@ -133,7 +133,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#determine-message-and-event-scenarios" id="toc-determine-message-and-event-scenarios" class="nav-link active" data-scroll-target="#determine-message-and-event-scenarios">Determine message and event scenarios</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -155,8 +161,39 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html">Application Architecture</a></p>
+<section id="determine-message-and-event-scenarios" class="level1">
+<h1>Determine message and event scenarios</h1>
+<p>Does sending component expect the communication to be processed in a specific way?</p>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Description</th>
+<th>When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Event</td>
+<td>- Light weight.<br>- includes a publisher and a subscriber.</td>
+<td>Used for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.</td>
+</tr>
+<tr class="even">
+<td>Message</td>
+<td>- Contains raw data, produced by one component, that will be consumed by another component.<br>- Contains the data itself, not just a reference to that data.</td>
+<td>Used where the distributed application requires a guarantee that the communication will be processed.</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
