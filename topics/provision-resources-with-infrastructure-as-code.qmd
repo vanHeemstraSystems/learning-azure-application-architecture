@@ -1,1 +1,18 @@
+---
+title: "Provision resources with Infrastructure as Code"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Provision resources with Infrastructure as Code
+Azure supports IaC with Azure Resource Manager and third-party platforms.
+
+![Azure Resource Manager](../images/azure-resource-manager.png)
+
+- Azure Resource manager templates - Bicep, JSON.
+- Azure Automation = Powershell.
+- Azure DevOps services.
+- GitHub actions.
+- Terraform.
+- Jenkins.
