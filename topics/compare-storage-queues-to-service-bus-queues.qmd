@@ -1,1 +1,9 @@
+---
+title: "Compare Storage Queue to Service Bus Queues"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Storage Queues and Service Bus Queues - Compared and Contrasted
+See https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted
