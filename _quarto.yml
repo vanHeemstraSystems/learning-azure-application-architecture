@@ -22,6 +22,8 @@ website:
         - topics/determine-message-and-event-scenarios.qmd
         - text: "---"
         - topics/design-for-service-bus-queues-and-topics.qmd
+        - text: "---"
+        - topics/design-for-azure-queue-storage.qmd
 format:
   html:
     theme: cosmo
