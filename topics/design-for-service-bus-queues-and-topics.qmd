@@ -1,11 +1,11 @@
 ---
-title: "Design for Service Bus queues and topics"
+title: "Design for Service Bus Queues and Topics"
 css: ../styles.css
 ---
 
 Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
 
-# Design for Service Bus queues and topics
+# Design for Service Bus Queues and Topics
 Service Bus decouples applications and services from each other.
 
 |![Service Bus Queues](../images/service-bus-queues.png)|![Service Bus Publish-Subscribe Topics](../images/service-bus-publish-subscribe-topics.png)|
