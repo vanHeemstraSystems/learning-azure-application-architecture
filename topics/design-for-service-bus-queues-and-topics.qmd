@@ -9,4 +9,5 @@ Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-De
 Service Bus decouples applications and services from each other.
 
 |![Service Bus Queues](../images/service-bus-queues.png)|![Service Bus Publish-Subscribe Topics](../images/service-bus-publish-subscribe-topics.png)|
+|---|---|
 |- Built on top of a dedicated messaging infrastructure.<br/>- Holds messages until the target is ready to receive them - different from queues.|- Like bus queues, but with multiple subscribes.<br/>- When a message is sent to a topic, multiple components can be triggered to perform a task.|
