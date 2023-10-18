@@ -35,7 +35,10 @@ website:
         - text: "---"
         - topics/design-an-iot-hub-solution.qmd
         - text: "---"
-        - topics/when-to-use-azure-cache-for-redis.qmd        
+        - topics/when-to-use-azure-cache-for-redis.qmd
+        - text: "---"
+        - topics/design-an-azure-api-management-solution.qmd
+
 format:
   html:
     theme: cosmo
