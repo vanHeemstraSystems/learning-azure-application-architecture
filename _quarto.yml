@@ -33,7 +33,9 @@ website:
         - text: "---"
         - topics/design-an-event-driven-solution.qmd
         - text: "---"
-        - topics/design-an-iot-hub-solution.qmd        
+        - topics/design-an-iot-hub-solution.qmd
+        - text: "---"
+        - topics/when-to-use-azure-cache-for-redis.qmd        
 format:
   html:
     theme: cosmo
