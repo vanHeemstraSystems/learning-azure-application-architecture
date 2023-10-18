@@ -10,7 +10,7 @@ Azure supports IaC with Azure Resource Manager and third-party platforms.
 
 ![Azure Resource Manager](../images/azure-resource-manager.png)
 
-- Azure Resource manager templates - Bicep, JSON.
+- Azure Resource Manager templates - Bicep, JSON.
 - Azure Automation = Powershell.
 - Azure DevOps services.
 - GitHub actions.
