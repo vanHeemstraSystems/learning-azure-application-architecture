@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learning Azure Application Architecture",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
-  },
-  {
-    "objectID": "topics/design-for-azure-queue-storage.html",
-    "href": "topics/design-for-azure-queue-storage.html",
-    "title": "Design for Azure Queue Storage",
-    "section": "",
-    "text": "Source: Application Architecture\n\nDesign for Azure Queue Storage\nAzure Storage Queue is a service for learning large number messages.\n\n\n\nAzure Queue Storage\n\n\n\nAccessed with authenticated calls using HTTP or HTTPS.\nMessage can be up to 64 KB in size.\nMay contain millions of messages, up to the total capacity limit of a storage account.\nCreate a backlog of work to process asynchronously.\nExample: customer placing orders online added to the queue and processed."
-  },
-  {
-    "objectID": "topics/design-an-event-hub-messaging-solution.html",
-    "href": "topics/design-an-event-hub-messaging-solution.html",
-    "title": "Design an Event Hub messaging solution",
-    "section": "",
-    "text": "Source: Application Architecture\n\nDesign an Event Hub messaging solution\nAzure Event Hubs is a fully managed, real-time data ingestion service.\n\n\n\nAzure Event Hubs\n\n\n\nOrders events by when they are received - by time offsets.\nUses a pull model allowing multiple reads from consumers.\nScaling is controlled by how many throughput units or processing units you purchase.\nDoesn’t account for messages that aren’t processed.\nReceiving IoT and real-time streaming data."
-  },
-  {
-    "objectID": "topics/design-for-service-bus-queues-and-topics.html",
-    "href": "topics/design-for-service-bus-queues-and-topics.html",
-    "title": "Design for Service Bus Queues and Topics",
-    "section": "",
-    "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.\n- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -35,18 +7,18 @@
     "text": "About this site"
   },
   {
-    "objectID": "topics/design-an-event-driven-solution.html",
-    "href": "topics/design-an-event-driven-solution.html",
-    "title": "Design an Event-Driven solution",
-    "section": "",
-    "text": "Source: Application Architecture\n\nDesign an Event-Driven solution\nAzure Event Grid is a routing service connecting data sources with event handlers.\n\n\n\nAzure Event Grid\n\n\n\nEvents sources include Azure resources or custom topics (you create).\nEvent handlers react to an event.\nUseful for serverless applications and operations automation.\nUse filters to route and multicast events.\nUses a pay-per-event pricing model."
-  },
-  {
     "objectID": "topics/compare-storage-queues-to-service-bus-queues.html",
     "href": "topics/compare-storage-queues-to-service-bus-queues.html",
     "title": "Compare Storage Queues to Service Bus Queues",
     "section": "",
     "text": "Source: Application Architecture\n\nStorage Queues and Service Bus Queues - Compared and Contrasted\nSee Storage Queues and Service Bus Queues - Compared and Contrasted"
+  },
+  {
+    "objectID": "topics/design-for-service-bus-queues-and-topics.html",
+    "href": "topics/design-for-service-bus-queues-and-topics.html",
+    "title": "Design for Service Bus Queues and Topics",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.\n- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task."
   },
   {
     "objectID": "topics/compare-messaging-solutions.html",
@@ -63,10 +35,59 @@
     "text": "Source: Application Architecture\n\nDetermine message and event scenarios\nDoes sending component expect the communication to be processed in a specific way?\n\n\n\n\n\n\n\n\nAction\nDescription\nWhen to use\n\n\n\n\nEvent\n- Light weight.- Includes a publisher and a subscriber.\nUsed for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.\n\n\nMessage\n- Contains raw data, produced by one component, that will be consumed by another component.- Contains the data itself, not just a reference to that data.\nUsed where the distributed application requires a guarantee that the communication will be processed."
   },
   {
+    "objectID": "topics/design-for-azure-queue-storage.html",
+    "href": "topics/design-for-azure-queue-storage.html",
+    "title": "Design for Azure Queue Storage",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign for Azure Queue Storage\nAzure Storage Queue is a service for learning large number messages.\n\n\n\nAzure Queue Storage\n\n\n\nAccessed with authenticated calls using HTTP or HTTPS.\nMessage can be up to 64 KB in size.\nMay contain millions of messages, up to the total capacity limit of a storage account.\nCreate a backlog of work to process asynchronously.\nExample: customer placing orders online added to the queue and processed."
+  },
+  {
+    "objectID": "topics/design-an-iot-hub-solution.html",
+    "href": "topics/design-an-iot-hub-solution.html",
+    "title": "Design an IoT Hub solution",
+    "section": "",
+    "text": "Source: Application Architecture"
+  },
+  {
+    "objectID": "topics/design-an-iot-hub-solution.html#when-to-use-iot-hub",
+    "href": "topics/design-an-iot-hub-solution.html#when-to-use-iot-hub",
+    "title": "Design an IoT Hub solution",
+    "section": "When to use IoT Hub?",
+    "text": "When to use IoT Hub?\n\nApplication complexity.\nData throughput.\nSecuring solution end-to-end allowing for per-device authentication.\nBi-directional communication."
+  },
+  {
+    "objectID": "topics/design-an-iot-hub-solution.html#capabilities-over-event-hub",
+    "href": "topics/design-an-iot-hub-solution.html#capabilities-over-event-hub",
+    "title": "Design an IoT Hub solution",
+    "section": "Capabilities over Event Hub:",
+    "text": "Capabilities over Event Hub:\n\nPer-device identity.\nFile upload from devices.\nDevice provisioning service."
+  },
+  {
+    "objectID": "topics/design-an-event-driven-solution.html",
+    "href": "topics/design-an-event-driven-solution.html",
+    "title": "Design an Event-Driven solution",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign an Event-Driven solution\nAzure Event Grid is a routing service connecting data sources with event handlers.\n\n\n\nAzure Event Grid\n\n\n\nEvents sources include Azure resources or custom topics (you create).\nEvent handlers react to an event.\nUseful for serverless applications and operations automation.\nUse filters to route and multicast events.\nUses a pay-per-event pricing model."
+  },
+  {
+    "objectID": "topics/design-an-event-hub-messaging-solution.html",
+    "href": "topics/design-an-event-hub-messaging-solution.html",
+    "title": "Design an Event Hub messaging solution",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign an Event Hub messaging solution\nAzure Event Hubs is a fully managed, real-time data ingestion service.\n\n\n\nAzure Event Hubs\n\n\n\nOrders events by when they are received - by time offsets.\nUses a pull model allowing multiple reads from consumers.\nScaling is controlled by how many throughput units or processing units you purchase.\nDoesn’t account for messages that aren’t processed.\nReceiving IoT and real-time streaming data."
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Table of contents",
     "section": "",
     "text": "Table of contents\n\nLearning Azure Application Architecture"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Azure Application Architecture",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
   }
 ]

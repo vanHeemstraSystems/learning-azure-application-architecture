@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Application Architecture – design-an-iot-hub-solution</title>
+<title>Learning Azure Application Architecture - Design an IoT Hub solution</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Design an IoT Hub solution</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -178,15 +178,68 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#design-an-iot-hub-solution" id="toc-design-an-iot-hub-solution" class="nav-link active" data-scroll-target="#design-an-iot-hub-solution">Design an IoT Hub solution</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-iot-hub" id="toc-when-to-use-iot-hub" class="nav-link" data-scroll-target="#when-to-use-iot-hub">When to use IoT Hub?</a></li>
+  <li><a href="#capabilities-over-event-hub" id="toc-capabilities-over-event-hub" class="nav-link" data-scroll-target="#capabilities-over-event-hub">Capabilities over Event Hub:</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Design an IoT Hub solution</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html">Application Architecture</a></p>
+<section id="design-an-iot-hub-solution" class="level1">
+<h1>Design an IoT Hub solution</h1>
+<p>Central message hub for Internet-of-Things (IoT) applications and its attched devices.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/azure-iot-hub.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Azure IoT Hub</figcaption>
+</figure>
+</div>
+<section id="when-to-use-iot-hub" class="level2">
+<h2 class="anchored" data-anchor-id="when-to-use-iot-hub">When to use IoT Hub?</h2>
+<ul>
+<li>Application complexity.</li>
+<li>Data throughput.</li>
+<li>Securing solution end-to-end allowing for per-device authentication.</li>
+<li>Bi-directional communication.</li>
+</ul>
+</section>
+<section id="capabilities-over-event-hub" class="level2">
+<h2 class="anchored" data-anchor-id="capabilities-over-event-hub">Capabilities over Event Hub:</h2>
+<ul>
+<li>Per-device identity.</li>
+<li>File upload from devices.</li>
+<li>Device provisioning service.</li>
+</ul>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
