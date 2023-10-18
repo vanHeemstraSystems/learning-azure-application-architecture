@@ -1,1 +1,16 @@
+---
+title: "When to use Azure Cache for Redis"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# When to use Azure Cache for Redis
+Store frequently accessed data so that applications can be responsive to users.
+
+![Azure Cache for Redis](../images/azure-cache-for-redis.png)
+
+- Key scenarios - data cache, content cache, session store, job and message queuing, and distributed transactions.
+- Fully managed solution.
+- High availability - responds automatically to both anticipated and unanticipated changes in demand.
+- Same performance and scaling benefits throughout the world - network isolation, data encryption in transit.
