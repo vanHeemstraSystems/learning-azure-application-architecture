@@ -30,7 +30,8 @@ website:
         - topics/compare-messaging-solutions.qmd
         - text: "---"
         - topics/design-an-event-hub-messaging-solution.qmd
-
+        - text: "---"
+        - topics/design-an-event-driven-solution.qmd
 format:
   html:
     theme: cosmo
