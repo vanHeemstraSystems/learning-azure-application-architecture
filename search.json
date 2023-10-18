@@ -42,6 +42,13 @@
     "text": "Source: Application Architecture\n\nDesign for Azure Queue Storage\nAzure Storage Queue is a service for learning large number messages.\n\n\n\nAzure Queue Storage\n\n\n\nAccessed with authenticated calls using HTTP or HTTPS.\nMessage can be up to 64 KB in size.\nMay contain millions of messages, up to the total capacity limit of a storage account.\nCreate a backlog of work to process asynchronously.\nExample: customer placing orders online added to the queue and processed."
   },
   {
+    "objectID": "topics/when-to-use-azure-cache-for-redis.html",
+    "href": "topics/when-to-use-azure-cache-for-redis.html",
+    "title": "When to use Azure Cache for Redis",
+    "section": "",
+    "text": "Source: Application Architecture\n\nWhen to use Azure Cache for Redis\nStore frequently accessed data so that applications can be responsive to users.\n\n\n\nAzure Cache for Redis\n\n\n\nKey scenarios - data cache, content cache, session store, job and message queuing, and distributed transactions.\nFully managed solution.\nHigh availability - responds automatically to both anticipated and unanticipated changes in demand.\nSame performance and scaling benefits throughout the world - network isolation, data encryption in transit."
+  },
+  {
     "objectID": "topics/design-an-iot-hub-solution.html",
     "href": "topics/design-an-iot-hub-solution.html",
     "title": "Design an IoT Hub solution",
