@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Azure Application Architecture",
     "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "topics/design-for-service-bus-queues-and-topics.html",
-    "href": "topics/design-for-service-bus-queues-and-topics.html",
-    "title": "Design for Service Bus queues and topics",
-    "section": "",
-    "text": "Source: Application Architecture\n\nDesign for Service Bus queues and topics\nService Bus decouples applications and services from each other.\n||| |- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.|- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task.|"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
   },
   {
     "objectID": "topics/determine-message-and-event-scenarios.html",
@@ -21,17 +14,24 @@
     "text": "Source: Application Architecture\n\nDetermine message and event scenarios\nDoes sending component expect the communication to be processed in a specific way?\n\n\n\n\n\n\n\n\nAction\nDescription\nWhen to use\n\n\n\n\nEvent\n- Light weight.- Includes a publisher and a subscriber.\nUsed for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.\n\n\nMessage\n- Contains raw data, produced by one component, that will be consumed by another component.- Contains the data itself, not just a reference to that data.\nUsed where the distributed application requires a guarantee that the communication will be processed."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "topics/design-for-service-bus-queues-and-topics.html",
+    "href": "topics/design-for-service-bus-queues-and-topics.html",
+    "title": "Design for Service Bus Queues and Topics",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n||| |- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.|- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task.|"
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Table of contents",
     "section": "",
     "text": "Table of contents\n\nLearning Azure Application Architecture"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learning Azure Application Architecture",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
   }
 ]

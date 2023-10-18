@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Application Architecture - Design for Service Bus queues and topics</title>
+<title>Learning Azure Application Architecture - Design for Service Bus Queues and Topics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Design for Service Bus queues and topics</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Design for Service Bus Queues and Topics</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#design-for-service-bus-queues-and-topics" id="toc-design-for-service-bus-queues-and-topics" class="nav-link active" data-scroll-target="#design-for-service-bus-queues-and-topics">Design for Service Bus queues and topics</a></li>
+  <li><a href="#design-for-service-bus-queues-and-topics" id="toc-design-for-service-bus-queues-and-topics" class="nav-link active" data-scroll-target="#design-for-service-bus-queues-and-topics">Design for Service Bus Queues and Topics</a></li>
   </ul>
 </nav>
     </div>
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Design for Service Bus queues and topics</h1>
+<h1 class="title">Design for Service Bus Queues and Topics</h1>
 </div>
 
 
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html">Application Architecture</a></p>
 <section id="design-for-service-bus-queues-and-topics" class="level1">
-<h1>Design for Service Bus queues and topics</h1>
+<h1>Design for Service Bus Queues and Topics</h1>
 <p>Service Bus decouples applications and services from each other.</p>
 <p>|<img src="../images/service-bus-queues.png" class="img-fluid" alt="Service Bus Queues">|<img src="../images/service-bus-publish-subscribe-topics.png" class="img-fluid" alt="Service Bus Publish-Subscribe Topics">| |- Built on top of a dedicated messaging infrastructure.<br>- Holds messages until the target is ready to receive them - different from queues.|- Like bus queues, but with multiple subscribes.<br>- When a message is sent to a topic, multiple components can be triggered to perform a task.|</p>
 
