@@ -24,6 +24,8 @@ website:
         - topics/design-for-service-bus-queues-and-topics.qmd
         - text: "---"
         - topics/design-for-azure-queue-storage.qmd
+        - text: "---"
+        - topics/compare-storage-queues-to-service-bus-queues.qmd
 format:
   html:
     theme: cosmo
