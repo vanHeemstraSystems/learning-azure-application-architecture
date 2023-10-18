@@ -41,7 +41,9 @@ website:
         - text: "---"
         - topics/what-is-infrastructure-as-code.qmd
         - text: "---"
-        - topics/provision-resources-with-infrastructure-as-code.qmd        
+        - topics/provision-resources-with-infrastructure-as-code.qmd
+        - text: "---"
+        - topics/design-an-azure-app-configuration-solution.qmd
 format:
   html:
     theme: cosmo
