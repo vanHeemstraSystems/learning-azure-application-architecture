@@ -1,1 +1,17 @@
+---
+title: "Design an Azure API management solution"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Design an Azure API management solution
+Publish, secure, maintain, and analyze all your company's APIs.
+
+![Azure API management](../images/azure-api-management.png)
+
+- Bring multiple APIs under a single administrative umbrella - centralized management.
+- Manage permissions and access.
+- Ensure compliance across API..
+- Standardize API specs.
+- Protect the APIs from malicious usage.
