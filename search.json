@@ -84,6 +84,13 @@
     "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.\n- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task."
   },
   {
+    "objectID": "topics/design-an-azure-api-management-solution.html",
+    "href": "topics/design-an-azure-api-management-solution.html",
+    "title": "Design an Azure API management solution",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign an Azure API management solution\nPublish, secure, maintain, and analyze all your company’s APIs.\n\n\n\nAzure API management\n\n\n\nBring multiple APIs under a single administrative umbrella - centralized management.\nManage permissions and access.\nEnsure compliance across API..\nStandardize API specs.\nProtect the APIs from malicious usage."
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Table of contents",
