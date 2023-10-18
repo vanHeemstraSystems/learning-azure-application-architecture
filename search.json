@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learning Azure Application Architecture",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
-  },
-  {
-    "objectID": "topics/design-for-azure-queue-storage.html",
-    "href": "topics/design-for-azure-queue-storage.html",
-    "title": "Design for Azure Queue Storage",
-    "section": "",
-    "text": "Source: Application Architecture\n\nDesign for Azure Queue Storage\nAzure Storage Queue is a service for learning large number messages.\n\n\n\nAzure Queue Storage\n\n\n\nAccessed with authenticated calls using HTTP or HTTPS.\nMessage can be up to 64 KB in size.\nMay contain millions of messages, up to the total capacity limit of a storage account.\nCreate a backlog of work to process asynchronously.\nExample: customer placing orders online added to the queue and processed."
-  },
-  {
-    "objectID": "topics/compare-storage-queues-to-service-bus-queues.html",
-    "href": "topics/compare-storage-queues-to-service-bus-queues.html",
-    "title": "Compare Storage Queue to Service Bus Queues",
-    "section": "",
-    "text": "Source: Application Architecture\n\nStorage Queues and Service Bus Queues - Compared and Contrasted\nSee https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -28,11 +7,11 @@
     "text": "About this site"
   },
   {
-    "objectID": "topics/design-for-service-bus-queues-and-topics.html",
-    "href": "topics/design-for-service-bus-queues-and-topics.html",
-    "title": "Design for Service Bus Queues and Topics",
+    "objectID": "topics/compare-storage-queues-to-service-bus-queues.html",
+    "href": "topics/compare-storage-queues-to-service-bus-queues.html",
+    "title": "Compare Storage Queues to Service Bus Queues",
     "section": "",
-    "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.\n- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task."
+    "text": "Source: Application Architecture\n\nStorage Queues and Service Bus Queues - Compared and Contrasted\nSee"
   },
   {
     "objectID": "topics/determine-message-and-event-scenarios.html",
@@ -42,10 +21,31 @@
     "text": "Source: Application Architecture\n\nDetermine message and event scenarios\nDoes sending component expect the communication to be processed in a specific way?\n\n\n\n\n\n\n\n\nAction\nDescription\nWhen to use\n\n\n\n\nEvent\n- Light weight.- Includes a publisher and a subscriber.\nUsed for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.\n\n\nMessage\n- Contains raw data, produced by one component, that will be consumed by another component.- Contains the data itself, not just a reference to that data.\nUsed where the distributed application requires a guarantee that the communication will be processed."
   },
   {
+    "objectID": "topics/design-for-azure-queue-storage.html",
+    "href": "topics/design-for-azure-queue-storage.html",
+    "title": "Design for Azure Queue Storage",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign for Azure Queue Storage\nAzure Storage Queue is a service for learning large number messages.\n\n\n\nAzure Queue Storage\n\n\n\nAccessed with authenticated calls using HTTP or HTTPS.\nMessage can be up to 64 KB in size.\nMay contain millions of messages, up to the total capacity limit of a storage account.\nCreate a backlog of work to process asynchronously.\nExample: customer placing orders online added to the queue and processed."
+  },
+  {
+    "objectID": "topics/design-for-service-bus-queues-and-topics.html",
+    "href": "topics/design-for-service-bus-queues-and-topics.html",
+    "title": "Design for Service Bus Queues and Topics",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.\n- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task."
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Table of contents",
     "section": "",
     "text": "Table of contents\n\nLearning Azure Application Architecture"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Azure Application Architecture",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
   }
 ]
