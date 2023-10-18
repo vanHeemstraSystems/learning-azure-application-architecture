@@ -14,6 +14,13 @@
     "text": "Source: Application Architecture\n\nWhat is Infrastructure as Code\nInfrastructure as Code (IaC) is the process of automating your infrastructure provisioning.\n\n\n\nInfrastructure as Code\n\n\n\nThe IaC model generates the same environment every time it is applied.\nSolves the problem of environmental drift.\nEnables teams to test applications in production-like environments early.\nWhere possible, uses declarative definition files."
   },
   {
+    "objectID": "topics/provision-resources-with-infrastructure-as-code.html",
+    "href": "topics/provision-resources-with-infrastructure-as-code.html",
+    "title": "Provision resources with Infrastructure as Code",
+    "section": "",
+    "text": "Source: Application Architecture\n\nProvision resources with Infrastructure as Code\nAzure supports IaC with Azure Resource Manager and third-party platforms.\n\n\n\nAzure Resource Manager\n\n\n\nAzure Resource manager templates - Bicep, JSON.\nAzure Automation = Powershell.\nAzure DevOps services.\nGitHub actions.\nTerraform.\nJenkins."
+  },
+  {
     "objectID": "topics/design-an-event-hub-messaging-solution.html",
     "href": "topics/design-an-event-hub-messaging-solution.html",
     "title": "Design an Event Hub messaging solution",
