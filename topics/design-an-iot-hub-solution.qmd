@@ -1,1 +1,24 @@
+---
+title: "Design an IoT Hub solution"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Design an IoT Hub solution
+Central message hub for Internet-of-Things (IoT) applications and its attched devices.
+
+![Azure IoT Hub](../images/azure-iot-hub.png)
+
+## When to use IoT Hub?
+
+- Application complexity.
+- Data throughput.
+- Securing solution end-to-end allowing for per-device authentication.
+- Bi-directional communication.
+
+## Capabilities over Event Hub:
+
+- Per-device identity.
+- File upload from devices.
+- Device provisioning service.
