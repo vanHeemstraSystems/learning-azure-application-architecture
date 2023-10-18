@@ -1,1 +1,17 @@
+---
+title: "Design for Azure Queue Storage"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Design for Azure Queue Storage
+Azure Storage Queue is a service for learning large number messages.
+
+![Azure Queue Storage](../images/azure-queue-storage.png)
+
+- Accessed with authenticated calls using HTTP or HTTPS.
+- Message can be up to 64 KB in size.
+- May contain millions of messages, up to the total capacity limit of a storage account.
+- Create a backlog of work to process asynchronously.
+- Example: customer placing orders online added to the queue and processed.
