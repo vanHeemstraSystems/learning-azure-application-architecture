@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "topics/compare-storage-queues-to-service-bus-queues.html",
+    "href": "topics/compare-storage-queues-to-service-bus-queues.html",
+    "title": "Compare Storage Queue to Service Bus Queues",
+    "section": "",
+    "text": "Source: Application Architecture\n\nStorage Queues and Service Bus Queues - Compared and Contrasted\nSee https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted"
+  },
+  {
     "objectID": "topics/determine-message-and-event-scenarios.html",
     "href": "topics/determine-message-and-event-scenarios.html",
     "title": "Determine message and event scenarios",
