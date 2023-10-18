@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/index.html</loc>
-    <lastmod>2023-10-18T08:58:13.028Z</lastmod>
+    <lastmod>2023-10-18T08:59:18.869Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/determine-message-and-event-scenarios.html</loc>
-    <lastmod>2023-10-18T08:58:12.428Z</lastmod>
+    <lastmod>2023-10-18T08:59:18.173Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics.html</loc>
-    <lastmod>2023-10-18T08:58:11.696Z</lastmod>
+    <lastmod>2023-10-18T08:59:17.417Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/about.html</loc>
-    <lastmod>2023-10-18T08:58:10.800Z</lastmod>
+    <lastmod>2023-10-18T08:59:15.697Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/design-for-service-bus-queues-and-topics.html</loc>
-    <lastmod>2023-10-18T08:58:12.064Z</lastmod>
+    <lastmod>2023-10-18T08:59:17.785Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/SUMMARY.html</loc>
-    <lastmod>2023-10-18T08:58:12.732Z</lastmod>
+    <lastmod>2023-10-18T08:59:18.521Z</lastmod>
   </url>
 </urlset>
