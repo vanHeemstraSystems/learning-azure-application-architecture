@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Azure Application Architecture – compare-messaging-solutions</title>
+<title>Learning Azure Application Architecture - Compare Messaging Solutions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Compare Messaging Solutions</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -157,15 +157,71 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#compare-messaging-solutions" id="toc-compare-messaging-solutions" class="nav-link active" data-scroll-target="#compare-messaging-solutions">Compare Messaging Solutions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Compare Messaging Solutions</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Source: <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html">Application Architecture</a></p>
+<section id="compare-messaging-solutions" class="level1">
+<h1>Compare Messaging Solutions</h1>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Solution</th>
+<th>Usage Case</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Queue Storage.</td>
+<td>- A simple queue to organize messages.<br>- Queue to exceed 80 GB in size.<br>- To track progress for processinga message inside of the queue.<br>- Maximum message TTL of 7 days.</td>
+<td>Based on storage tier.</td>
+</tr>
+<tr class="even">
+<td>Service Bus Queues.</td>
+<td>- A first-in-first-out guarantee.<br>- An at-most-once delivery guarantee.<br>- Can group messages into transactions.<br>- Receive messages without polling the queue.<br>- Provide a role-based access model to the queues.<br>- Publish and consume batches of messages.</td>
+<td>99.9%</td>
+</tr>
+<tr class="odd">
+<td>Service Bus Topics</td>
+<td>- Multiple receivers to handle each message.<br>- Multiple destinations for a single message.</td>
+<td>99.9%</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
