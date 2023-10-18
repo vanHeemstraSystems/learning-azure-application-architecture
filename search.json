@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Azure Application Architecture",
     "section": "",
-    "text": "About this site"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
+  },
+  {
+    "objectID": "topics/design-for-azure-queue-storage.html",
+    "href": "topics/design-for-azure-queue-storage.html",
+    "title": "Design for Azure Queue Storage",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign for Azure Queue Storage\nAzure Storage Queue is a service for learning large number messages.\n\n\n\nAzure Queue Storage\n\n\n\nAccessed with authenticated calls using HTTP or HTTPS.\nMessage can be up to 64 KB in size.\nMay contain millions of messages, up to the total capacity limit of a storage account.\nCreate a backlog of work to process asynchronously.\nExample: customer placing orders online added to the queue and processed."
   },
   {
     "objectID": "topics/design-for-service-bus-queues-and-topics.html",
@@ -12,6 +19,13 @@
     "title": "Design for Service Bus Queues and Topics",
     "section": "",
     "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.\n- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "topics/determine-message-and-event-scenarios.html",
@@ -26,12 +40,5 @@
     "title": "Table of contents",
     "section": "",
     "text": "Table of contents\n\nLearning Azure Application Architecture"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learning Azure Application Architecture",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nTopics\nSee Topics"
   }
 ]
