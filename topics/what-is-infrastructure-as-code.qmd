@@ -12,5 +12,5 @@ Infrastructure as Code (IaC) is the process of automating your infrastructure pr
 
 - The IaC model generates the same environment every time it is applied.
 - Solves the problem of environmental drift.
-- Enables teams to test applications in production-like envvironments early.
+- Enables teams to test applications in production-like environments early.
 - Where possible, uses declarative definition files.
