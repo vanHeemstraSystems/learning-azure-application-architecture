@@ -40,6 +40,8 @@ website:
         - topics/design-an-azure-api-management-solution.qmd
         - text: "---"
         - topics/what-is-infrastructure-as-code.qmd
+        - text: "---"
+        - topics/provision-resources-with-infrastructure-as-code.qmd        
 format:
   html:
     theme: cosmo
