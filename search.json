@@ -18,7 +18,7 @@
     "href": "topics/compare-messaging-solutions.html",
     "title": "Compare Messaging Solutions",
     "section": "",
-    "text": "Source: Application Architecture\n\nCompare Messaging Solutions\n\n\n\n\n\n\n\n\nSolution\nUsage Case\n\n\n\n\n\nQueue Storage.\n- A simple queue to organize messages.- Queue to exceed 80 GB in size.- To track progress for processing a message inside of the queue.- Maximum message Time-To-Live (TTL) of 7 days.\nBased on storage tier.\n\n\nService Bus Queues.\n- A first-in-first-out guarantee.- An at-most-once delivery guarantee.- Can group messages into transactions.- Receive messages without polling the queue.- Provide a role-based access model to the queues.- Publish and consume batches of messages.\n99.9%\n\n\nService Bus Topics\n- Multiple receivers to handle each message.- Multiple destinations for a single message.\n99.9%"
+    "text": "Source: Application Architecture\n\nCompare Messaging Solutions\n\n\n\n\n\n\n\n\nSolution\nUsage Case\n\n\n\n\n\nQueue Storage.\n- A simple queue to organize messages.- Queue to exceed 80 GB in size.- To track progress for processing a message inside of the queue.- Maximum message Time-To-Live (TTL) of 7 days.\nBased on storage tier.\n\n\nService Bus Queues.\n- A first-in-first-out guarantee.- An at-most-once delivery guarantee.- Can group messages into transactions.- Receive messages without polling the queue.- Provide a role-based access model to the queues.- Publish and consume batches of messages.\n99.9%\n\n\nService Bus Topics.\n- Multiple receivers to handle each message.- Multiple destinations for a single message.\n99.9%"
   },
   {
     "objectID": "topics/design-for-azure-queue-storage.html",
