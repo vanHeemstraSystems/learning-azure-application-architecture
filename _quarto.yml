@@ -32,6 +32,8 @@ website:
         - topics/design-an-event-hub-messaging-solution.qmd
         - text: "---"
         - topics/design-an-event-driven-solution.qmd
+        - text: "---"
+        - topics/design-an-iot-hub-solution.qmd        
 format:
   html:
     theme: cosmo
