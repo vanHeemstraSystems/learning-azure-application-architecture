@@ -1,0 +1,17 @@
+---
+title: "Design an Event-Driven solution"
+css: ../styles.css
+---
+
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Design an Event-Driven solution
+Azure Event Grid is a routing service connecting data sources with event handlers.
+
+![Azure Event Grid](../images/azure-event-grid.png)
+
+- Events sources include Azure resources or custom topics (you create).
+- Event handlers react to an event.
+- Useful for serverless applications and operations automation.
+- Use *filters* to route and multicast events.
+- Uses a pay-per-event pricing model.
