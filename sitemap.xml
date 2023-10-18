@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/about.html</loc>
-    <lastmod>2023-10-18T14:45:54.186Z</lastmod>
+    <lastmod>2023-10-18T14:46:32.510Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics.html</loc>
-    <lastmod>2023-10-18T14:45:53.566Z</lastmod>
+    <lastmod>2023-10-18T14:46:31.766Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/what-is-infrastructure-as-code.html</loc>
-    <lastmod>2023-10-18T14:45:52.886Z</lastmod>
+    <lastmod>2023-10-18T14:46:31.022Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/design-an-azure-api-management-solution.html</loc>
-    <lastmod>2023-10-18T14:45:52.210Z</lastmod>
+    <lastmod>2023-10-18T14:46:30.258Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/design-for-service-bus-queues-and-topics.html</loc>
-    <lastmod>2023-10-18T14:45:51.474Z</lastmod>
+    <lastmod>2023-10-18T14:46:29.442Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/compare-messaging-solutions.html</loc>
-    <lastmod>2023-10-18T14:45:50.762Z</lastmod>
+    <lastmod>2023-10-18T14:46:28.646Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/determine-message-and-event-scenarios.html</loc>
-    <lastmod>2023-10-18T14:45:49.770Z</lastmod>
+    <lastmod>2023-10-18T14:46:27.798Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/design-for-azure-queue-storage.html</loc>
-    <lastmod>2023-10-18T14:45:48.238Z</lastmod>
+    <lastmod>2023-10-18T14:46:26.581Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/when-to-use-azure-cache-for-redis.html</loc>
-    <lastmod>2023-10-18T14:45:49.134Z</lastmod>
+    <lastmod>2023-10-18T14:46:27.378Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/design-an-iot-hub-solution.html</loc>
-    <lastmod>2023-10-18T14:45:50.358Z</lastmod>
+    <lastmod>2023-10-18T14:46:28.222Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/design-an-event-driven-solution.html</loc>
-    <lastmod>2023-10-18T14:45:51.110Z</lastmod>
+    <lastmod>2023-10-18T14:46:29.034Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/design-an-event-hub-messaging-solution.html</loc>
-    <lastmod>2023-10-18T14:45:51.854Z</lastmod>
+    <lastmod>2023-10-18T14:46:29.858Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/topics/compare-storage-queues-to-service-bus-queues.html</loc>
-    <lastmod>2023-10-18T14:45:52.538Z</lastmod>
+    <lastmod>2023-10-18T14:46:30.614Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/SUMMARY.html</loc>
-    <lastmod>2023-10-18T14:45:53.218Z</lastmod>
+    <lastmod>2023-10-18T14:46:31.390Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-azure-application-architecture/index.html</loc>
-    <lastmod>2023-10-18T14:45:53.882Z</lastmod>
+    <lastmod>2023-10-18T14:46:32.134Z</lastmod>
   </url>
 </urlset>
