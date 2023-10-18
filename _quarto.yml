@@ -19,7 +19,9 @@ website:
         - text: "---"
         - topics.qmd        
         - text: "---"
-        - topics/determine-message-and-event-scenarios.qmd        
+        - topics/determine-message-and-event-scenarios.qmd
+        - text: "---"
+        - topics/design-for-service-bus-queues-and-topics.qmd
 format:
   html:
     theme: cosmo
