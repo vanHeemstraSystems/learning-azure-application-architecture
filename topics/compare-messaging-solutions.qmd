@@ -1,1 +1,14 @@
+---
+title: "Compare Messaging Solutions"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Compare Messaging Solutions
+
+|Solution|Usage Case||SLA|
+|---|---|---|
+|Queue Storage.|- A simple queue to organize messages.<br/>- Queue to exceed 80 GB in size.<br/>- To track progress for processinga message inside of the queue.<br/>- Maximum message TTL of 7 days.|Based on storage tier.|
+|Service Bus Queues.|- A first-in-first-out guarantee.<br/>- An at-most-once delivery guarantee.<br/>- Can group messages into transactions.<br/>- Receive messages without polling the queue.<br/>- Provide a role-based access model to the queues.<br/>- Publish and consume batches of messages.|99.9%|
+|Service Bus Topics|- Multiple receivers to handle each message.<br/>- Multiple destinations for a single message.|99.9%|
