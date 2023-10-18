@@ -7,6 +7,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "topics/what-is-infrastructure-as-code.html",
+    "href": "topics/what-is-infrastructure-as-code.html",
+    "title": "What is Infrastructure-as-Code",
+    "section": "",
+    "text": "Source: Application Architecture\n\nWhat is Infrastructure as Code\nInfrastructure as Code (IaC) is the process of automating your infrastructure provisioning.\n\n\n\nInfrastructure as Code\n\n\n\nThe IaC model generates the same environment every time it is applied.\nSolves the problem of environmental drift.\nEnables teams to test applications in production-like envvironments early.\nWhere possible, uses declarative definition files."
+  },
+  {
     "objectID": "topics/design-an-azure-api-management-solution.html",
     "href": "topics/design-an-azure-api-management-solution.html",
     "title": "Design an Azure API management solution",
