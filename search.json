@@ -11,7 +11,7 @@
     "href": "topics/design-for-service-bus-queues-and-topics.html",
     "title": "Design for Service Bus Queues and Topics",
     "section": "",
-    "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n||| |- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.|- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task.|"
+    "text": "Source: Application Architecture\n\nDesign for Service Bus Queues and Topics\nService Bus decouples applications and services from each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n- Built on top of a dedicated messaging infrastructure.- Holds messages until the target is ready to receive them - different from queues.\n- Like bus queues, but with multiple subscribes.- When a message is sent to a topic, multiple components can be triggered to perform a task."
   },
   {
     "objectID": "topics/determine-message-and-event-scenarios.html",

@@ -175,7 +175,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="design-for-service-bus-queues-and-topics" class="level1">
 <h1>Design for Service Bus Queues and Topics</h1>
 <p>Service Bus decouples applications and services from each other.</p>
-<p>|<img src="../images/service-bus-queues.png" class="img-fluid" alt="Service Bus Queues">|<img src="../images/service-bus-publish-subscribe-topics.png" class="img-fluid" alt="Service Bus Publish-Subscribe Topics">| |- Built on top of a dedicated messaging infrastructure.<br>- Holds messages until the target is ready to receive them - different from queues.|- Like bus queues, but with multiple subscribes.<br>- When a message is sent to a topic, multiple components can be triggered to perform a task.|</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="../images/service-bus-queues.png" class="img-fluid" alt="Service Bus Queues"></th>
+<th><img src="../images/service-bus-publish-subscribe-topics.png" class="img-fluid" alt="Service Bus Publish-Subscribe Topics"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>- Built on top of a dedicated messaging infrastructure.<br>- Holds messages until the target is ready to receive them - different from queues.</td>
+<td>- Like bus queues, but with multiple subscribes.<br>- When a message is sent to a topic, multiple components can be triggered to perform a task.</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
