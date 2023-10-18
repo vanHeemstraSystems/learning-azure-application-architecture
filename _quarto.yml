@@ -38,7 +38,8 @@ website:
         - topics/when-to-use-azure-cache-for-redis.qmd
         - text: "---"
         - topics/design-an-azure-api-management-solution.qmd
-
+        - text: "---"
+        - topics/what-is-infrastructure-as-code.qmd
 format:
   html:
     theme: cosmo
