@@ -1,1 +1,16 @@
+---
+title: "Design an Azure App Configuration solution"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Design an Azure App Configuration solution
+Azure App Configuration centrally manages application settings and feature flags.
+
+![Azure App Configuration](../images/azure-app-configuration.png)
+
+- Flexible key representations and mappings.
+- Point-in-time replay of settings - dedicated UI for feature flag management.
+- Comparison of two sets of configurations on custom-defined dimensions.
+- Enhanced security through Azure-managed identities and encryption.
