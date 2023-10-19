@@ -21,6 +21,13 @@
     "text": "Source: Application Architecture\n\nDetermine message and event scenarios\nDoes sending component expect the communication to be processed in a specific way?\n\n\n\n\n\n\n\n\nAction\nDescription\nWhen to use\n\n\n\n\nEvent\n- Light weight.- Includes a publisher and a subscriber.\nUsed for boradcasts and are often ephemeral. Ephemeral means the communication might not be handled by any receiver if none is currently subscribing.\n\n\nMessage\n- Contains raw data, produced by one component, that will be consumed by another component.- Contains the data itself, not just a reference to that data.\nUsed where the distributed application requires a guarantee that the communication will be processed."
   },
   {
+    "objectID": "topics/design-a-new-product-catalog.html",
+    "href": "topics/design-a-new-product-catalog.html",
+    "title": "Design a new product catalog",
+    "section": "",
+    "text": "Source: Application Architecture\n\nDesign a new product catalog\n\n\n\nA new product catalog.\n\n\n\nNew product catalog, ordering process, and shopping cart.\nServices will rely on a combination of relational and non-relational data.\nIt is critical that the service hosting the application supports rapid autoscaling and high availability."
+  },
+  {
     "objectID": "topics/design-an-azure-app-configuration-solution.html",
     "href": "topics/design-an-azure-app-configuration-solution.html",
     "title": "Design an Azure App Configuration solution",
