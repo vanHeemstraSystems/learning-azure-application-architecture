@@ -44,6 +44,8 @@ website:
         - topics/provision-resources-with-infrastructure-as-code.qmd
         - text: "---"
         - topics/design-an-azure-app-configuration-solution.qmd
+        - text: "---"
+        - topics/design-a-new-product-catalog.qmd
 format:
   html:
     theme: cosmo
