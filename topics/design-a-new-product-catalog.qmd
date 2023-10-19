@@ -1,1 +1,14 @@
+---
+title: "Design a new product catalog"
+css: ../styles.css
+---
 
+Source: [Application Architecture](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/06-Apparchitecture.html)
+
+# Design a new product catalog
+
+![A new product catalog.](../images/a-new-product-catalog.png)
+
+- New product catalog, ordering process, and shopping cart.
+- Services will rely on a combination of relational and non-relational data.
+- It is critical that the service hosting the application supports rapid autoscaling and high availability.
